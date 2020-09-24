@@ -10,7 +10,8 @@ metadata:
     circleci.com/project-slug: RoadieHQ/sample-service
     github.com/project-slug: RoadieHQ/sample-service
     backstage.io/github-actions-id: RoadieHQ/sample-service
-    aws.com/lambda: HelloWorld
+    aws.com/lambda/region: us-west-2
+    aws.com/lambda/function-name: HelloWorld
 spec:
   type: service
   owner: david@roadie.io
